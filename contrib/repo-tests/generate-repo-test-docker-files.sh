@@ -1,7 +1,9 @@
 #!/bin/sh
 #
-# `docker build --pull --file Dockerfile.auth-41.ubuntu-bionic --tag auth-41.ubuntu-bionic .`
-# `docker run -it auth-41.ubuntu-bionic`
+# - `docker build --pull --file Dockerfile.auth-41.ubuntu-bionic --tag auth-41.ubuntu-bionic .`
+# - `docker run -it auth-41.ubuntu-bionic`
+# - `docker run -it auth-41.ubuntu-bionic /bin/bash`
+#     - `pdns_recursor`
 
 if [ "$1" = "" -o "$1" = "-?" -o "$1" = "-h" -o "$1" = "--help" ]; then
     echo "Usage: generate-docker-files.sh RELEASE"
