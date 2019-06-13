@@ -8,7 +8,7 @@
 if [ "$1" = "" -o "$1" = "-?" -o "$1" = "-h" -o "$1" = "--help" ]; then
     echo "Usage: generate-docker-files.sh RELEASE"
     echo
-    echo "  - RELEASE: [ auth-40 | auth-41 | auth-42 | rec-40 | rec-41 | rec-42]"
+    echo "  - RELEASE: [auth-40|auth-41|auth-42|rec-40|rec-41|rec-42]"
     exit 1
 fi
 
