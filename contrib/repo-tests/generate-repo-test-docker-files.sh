@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# - `docker build --pull --file Dockerfile.auth-41.ubuntu-bionic --tag auth-41.ubuntu-bionic .`
+# - `docker build --no-cache --pull --file Dockerfile.auth-41.ubuntu-bionic --tag auth-41.ubuntu-bionic .`
 # - `docker run -it auth-41.ubuntu-bionic`
 # - `docker run -it auth-41.ubuntu-bionic /bin/bash`
 #     - `pdns_recursor`
